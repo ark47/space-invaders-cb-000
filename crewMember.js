@@ -15,7 +15,7 @@ class CrewMember {
   
   setsInvisibility() {
     if (this.position === 'Defender' && this.currentShip !== 'Looking for a Rig') {
-      this.currentShip.cloak = true;
+      this.currentShip.cloaked = true;
     }
     else {
       return 'had no effect';
